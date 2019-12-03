@@ -1,0 +1,13 @@
+{
+    "name": "EmailGmail",
+    "alias": "emailgmail",
+    "description": "",
+    "keywords": [],
+    "order": 0,
+    "providers": [
+        "Modules\\EmailGmail\\Providers\\EmailGmailServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
