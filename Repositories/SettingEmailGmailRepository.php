@@ -9,7 +9,7 @@ class SettingEmailGmailRepository
 {
 	// CREATES
 	public static function init(){
-		return SettingEmailGmail::create(['username' => 'scancodesistemas@gmail.com', 'password' => 'index@@12', 'title' => 'Pedido Scancode Sistemas', 'title' => 'Scancode', 'subject' => 'Detalhes do pedido', 'body' => 'Segue em anexo seu pedido em PDF.']);
+		return SettingEmailGmail::create(['username' => 'scancodesistemas@gmail.com', 'password' => 'index@@12', 'title' => 'Scancode', 'subject' => 'Detalhes do pedido', 'body' => 'Segue em anexo seu pedido em PDF.']);
 	}
 
 	// LOADS
